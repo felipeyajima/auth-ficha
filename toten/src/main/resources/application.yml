@@ -1,0 +1,13 @@
+spring.application.name: toten
+
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          fingerprint-api:
+            url: http://localhost:9001
+          cadastro-sus-api:
+            url: http://localhost:9002
+          ficha-api:
+            url: http://localhost:9003
